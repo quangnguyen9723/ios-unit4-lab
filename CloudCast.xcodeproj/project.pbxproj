@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */; };
+		997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */; };
+		997BF5EF29D4838D0099F2B4 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EE29D4838D0099F2B4 /* ForecastViewController.swift */; };
+		997BF5F229D4838D0099F2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997BF5F029D4838D0099F2B4 /* Main.storyboard */; };
+		997BF5F429D4838E0099F2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997BF5F329D4838E0099F2B4 /* Assets.xcassets */; };
+		997BF5F729D4838E0099F2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997BF5F529D4838E0099F2B4 /* LaunchScreen.storyboard */; };
+		997BF60229D4838E0099F2B4 /* CloudCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF60129D4838E0099F2B4 /* CloudCastTests.swift */; };
+		997BF60C29D4838E0099F2B4 /* CloudCastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF60B29D4838E0099F2B4 /* CloudCastUITests.swift */; };
+		997BF60E29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF60D29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift */; };
+		99E9824929D7944B0084E9EB /* CurrentWeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E9824829D7944B0084E9EB /* CurrentWeatherForecast.swift */; };
+		E3CEBDC12AD1D9B400C31A66 /* WeatherForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CEBDC02AD1D9B400C31A66 /* WeatherForecastService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		997BF5FE29D4838E0099F2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 997BF5DF29D4838D0099F2B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997BF5E629D4838D0099F2B4;
+			remoteInfo = CloudCast;
+		};
+		997BF60829D4838E0099F2B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 997BF5DF29D4838D0099F2B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997BF5E629D4838D0099F2B4;
+			remoteInfo = CloudCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		997BF5E729D4838D0099F2B4 /* CloudCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		997BF5EE29D4838D0099F2B4 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		997BF5F129D4838D0099F2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		997BF5F329D4838E0099F2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		997BF5F629D4838E0099F2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		997BF5F829D4838E0099F2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997BF5FD29D4838E0099F2B4 /* CloudCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		997BF60129D4838E0099F2B4 /* CloudCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastTests.swift; sourceTree = "<group>"; };
+		997BF60729D4838E0099F2B4 /* CloudCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		997BF60B29D4838E0099F2B4 /* CloudCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastUITests.swift; sourceTree = "<group>"; };
+		997BF60D29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99E9824829D7944B0084E9EB /* CurrentWeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherForecast.swift; sourceTree = "<group>"; };
+		E3CEBDC02AD1D9B400C31A66 /* WeatherForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		997BF5E429D4838D0099F2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997BF5FA29D4838E0099F2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997BF60429D4838E0099F2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		997BF5DE29D4838D0099F2B4 = {
+			isa = PBXGroup;
+			children = (
+				997BF5E929D4838D0099F2B4 /* CloudCast */,
+				997BF60029D4838E0099F2B4 /* CloudCastTests */,
+				997BF60A29D4838E0099F2B4 /* CloudCastUITests */,
+				997BF5E829D4838D0099F2B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		997BF5E829D4838D0099F2B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				997BF5E729D4838D0099F2B4 /* CloudCast.app */,
+				997BF5FD29D4838E0099F2B4 /* CloudCastTests.xctest */,
+				997BF60729D4838E0099F2B4 /* CloudCastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		997BF5E929D4838D0099F2B4 /* CloudCast */ = {
+			isa = PBXGroup;
+			children = (
+				997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */,
+				997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */,
+				997BF5EE29D4838D0099F2B4 /* ForecastViewController.swift */,
+				99E9824829D7944B0084E9EB /* CurrentWeatherForecast.swift */,
+				997BF5F029D4838D0099F2B4 /* Main.storyboard */,
+				997BF5F329D4838E0099F2B4 /* Assets.xcassets */,
+				997BF5F529D4838E0099F2B4 /* LaunchScreen.storyboard */,
+				997BF5F829D4838E0099F2B4 /* Info.plist */,
+				E3CEBDC02AD1D9B400C31A66 /* WeatherForecastService.swift */,
+			);
+			path = CloudCast;
+			sourceTree = "<group>";
+		};
+		997BF60029D4838E0099F2B4 /* CloudCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				997BF60129D4838E0099F2B4 /* CloudCastTests.swift */,
+			);
+			path = CloudCastTests;
+			sourceTree = "<group>";
+		};
+		997BF60A29D4838E0099F2B4 /* CloudCastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				997BF60B29D4838E0099F2B4 /* CloudCastUITests.swift */,
+				997BF60D29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift */,
+			);
+			path = CloudCastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		997BF5E629D4838D0099F2B4 /* CloudCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997BF61129D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast" */;
+			buildPhases = (
+				997BF5E329D4838D0099F2B4 /* Sources */,
+				997BF5E429D4838D0099F2B4 /* Frameworks */,
+				997BF5E529D4838D0099F2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudCast;
+			productName = CloudCast;
+			productReference = 997BF5E729D4838D0099F2B4 /* CloudCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		997BF5FC29D4838E0099F2B4 /* CloudCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997BF61429D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastTests" */;
+			buildPhases = (
+				997BF5F929D4838E0099F2B4 /* Sources */,
+				997BF5FA29D4838E0099F2B4 /* Frameworks */,
+				997BF5FB29D4838E0099F2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				997BF5FF29D4838E0099F2B4 /* PBXTargetDependency */,
+			);
+			name = CloudCastTests;
+			productName = CloudCastTests;
+			productReference = 997BF5FD29D4838E0099F2B4 /* CloudCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		997BF60629D4838E0099F2B4 /* CloudCastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997BF61729D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastUITests" */;
+			buildPhases = (
+				997BF60329D4838E0099F2B4 /* Sources */,
+				997BF60429D4838E0099F2B4 /* Frameworks */,
+				997BF60529D4838E0099F2B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				997BF60929D4838E0099F2B4 /* PBXTargetDependency */,
+			);
+			name = CloudCastUITests;
+			productName = CloudCastUITests;
+			productReference = 997BF60729D4838E0099F2B4 /* CloudCastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		997BF5DF29D4838D0099F2B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					997BF5E629D4838D0099F2B4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					997BF5FC29D4838E0099F2B4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 997BF5E629D4838D0099F2B4;
+					};
+					997BF60629D4838E0099F2B4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 997BF5E629D4838D0099F2B4;
+					};
+				};
+			};
+			buildConfigurationList = 997BF5E229D4838D0099F2B4 /* Build configuration list for PBXProject "CloudCast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 997BF5DE29D4838D0099F2B4;
+			productRefGroup = 997BF5E829D4838D0099F2B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997BF5E629D4838D0099F2B4 /* CloudCast */,
+				997BF5FC29D4838E0099F2B4 /* CloudCastTests */,
+				997BF60629D4838E0099F2B4 /* CloudCastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997BF5E529D4838D0099F2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997BF5F729D4838E0099F2B4 /* LaunchScreen.storyboard in Resources */,
+				997BF5F429D4838E0099F2B4 /* Assets.xcassets in Resources */,
+				997BF5F229D4838D0099F2B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997BF5FB29D4838E0099F2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997BF60529D4838E0099F2B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997BF5E329D4838D0099F2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997BF5EF29D4838D0099F2B4 /* ForecastViewController.swift in Sources */,
+				997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */,
+				E3CEBDC12AD1D9B400C31A66 /* WeatherForecastService.swift in Sources */,
+				997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */,
+				99E9824929D7944B0084E9EB /* CurrentWeatherForecast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997BF5F929D4838E0099F2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997BF60229D4838E0099F2B4 /* CloudCastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997BF60329D4838E0099F2B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997BF60C29D4838E0099F2B4 /* CloudCastUITests.swift in Sources */,
+				997BF60E29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		997BF5FF29D4838E0099F2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 997BF5E629D4838D0099F2B4 /* CloudCast */;
+			targetProxy = 997BF5FE29D4838E0099F2B4 /* PBXContainerItemProxy */;
+		};
+		997BF60929D4838E0099F2B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 997BF5E629D4838D0099F2B4 /* CloudCast */;
+			targetProxy = 997BF60829D4838E0099F2B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		997BF5F029D4838D0099F2B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				997BF5F129D4838D0099F2B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		997BF5F529D4838E0099F2B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				997BF5F629D4838E0099F2B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		997BF60F29D4838E0099F2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		997BF61029D4838E0099F2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		997BF61229D4838E0099F2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudCast/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		997BF61329D4838E0099F2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudCast/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		997BF61529D4838E0099F2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudCast";
+			};
+			name = Debug;
+		};
+		997BF61629D4838E0099F2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudCast";
+			};
+			name = Release;
+		};
+		997BF61829D4838E0099F2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudCast;
+			};
+			name = Debug;
+		};
+		997BF61929D4838E0099F2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudCast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997BF5E229D4838D0099F2B4 /* Build configuration list for PBXProject "CloudCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997BF60F29D4838E0099F2B4 /* Debug */,
+				997BF61029D4838E0099F2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997BF61129D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997BF61229D4838E0099F2B4 /* Debug */,
+				997BF61329D4838E0099F2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997BF61429D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997BF61529D4838E0099F2B4 /* Debug */,
+				997BF61629D4838E0099F2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997BF61729D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997BF61829D4838E0099F2B4 /* Debug */,
+				997BF61929D4838E0099F2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997BF5DF29D4838D0099F2B4 /* Project object */;
+}
